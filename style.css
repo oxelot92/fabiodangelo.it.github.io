@@ -178,8 +178,8 @@ section sumary
    display: flex;  
   }
 
-
   .mail:hover i, .address:hover i, .phone:hover i {
     background: green;
     color: #fff;
   }
+
