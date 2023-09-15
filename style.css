@@ -51,7 +51,6 @@
 .navbar-brand {
     font-family: 'rajdhani', sans-serif !important;
     font-weight: 500;
-    font-size: 40px;
 }
 
 /* navbar dark on scroll */
@@ -70,7 +69,7 @@
     color: rgb(201, 201, 201);
 }
 .navbar-nav li a:hover {
-    color: rgb(201, 201, 201);0
+    color: rgb(201, 201, 201);
 }
 
 /* footer icon style */
