@@ -5,6 +5,7 @@
     background-size: cover;
     position: relative;
 }
+
 /* text css above hero image */
 .hero_title {
     font-size: 4.5rem;
@@ -20,10 +21,12 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
 /* about section image */
 .ImageAboutPage {
     width: 100%;
 }
+
 /* competenze section */
 .competenzeText.card {
     height: 280px;
@@ -43,10 +46,19 @@
 .card:hover .competenzeIcon{
     color: green;
 }
+
+/* navbar brand fonts */
+.navbar-brand {
+    font-family: 'rajdhani', sans-serif !important;
+    font-weight: 500;
+    font-size: 40px;
+}
+
 /* navbar dark on scroll */
 .navbarScroll.navbarDark {
     background-color: black;
 }
+
 /* navbar text color */
 .navbar-brand {
     color: white;
@@ -78,11 +90,13 @@
 .fa-linkedin:hover {
     color: rgb(52, 89, 202);
 }
+
 /* footer style */
 #footer {
     background-color: #808080;
     text-align: center;
 }
+
 /* add space to section */
 #about, #competenze, #esperienza, #contatti {
     margin-top: 4rem;
@@ -91,6 +105,7 @@
 #contatti {
     padding-bottom: 4rem;
 }
+
 /* size title contatti */
 .contact-title {
     font-size:large ;
@@ -158,8 +173,6 @@ section sumary
     border: 2px solid green;
   }
   
-
-
 /* contact icon */
 .phone i, .mail i, .address i {
     font-size: 22px;
