@@ -58,8 +58,9 @@
     color: rgb(201, 201, 201);
 }
 .navbar-nav li a:hover {
-    color: rgb(201, 201, 201);
+    color: rgb(201, 201, 201);0
 }
+
 /* footer icon style */
 .social-icons {
     font-size: 36px;
