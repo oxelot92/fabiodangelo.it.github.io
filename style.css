@@ -1,198 +1,330 @@
-/* hero background image */
+/*-----------------
+ hero background image 
+ -------------------*/
 .bgimage {
-    height: 100vh;
-    background: url('images/heroImage1.jpeg');
-    background-size: cover;
-    position: relative;
+  height: 100vh;
+  background: url('images/heroImage1.jpeg');
+  background-size: cover;
+  position: relative;
 }
 
-/* text css above hero image */
+/*---------------------
+ text css above hero image 
+ ------------------------*/
 .hero_title {
-    font-size: 4.5rem;
+  font-size: 4.5rem;
 }
+
 .hero_desc {
-    font-size: 2rem;
+  font-size: 2rem;
 }
+
 .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
-/* about section image */
+/*---------------------
+ about section image 
+ ---------------------*/
 .ImageAboutPage {
-    width: 100%;
+  width: 100%;
 }
 
-/* competenze section */
+/*------------
+ Skills
+--------------*/
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #f3f3f3;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 13px;
+  background-color: green;
+}
+
+
+
+/*------------------------
+ skills progress animation
+-------------------------*/
+.progress-bar {
+  width: 0;
+
+}
+
+.progress-bar.active {
+  
+  animation: progress 1.5s ease-in-out forwards;
+}
+
+.progress-bar-2.active {
+
+  animation: progress 1.5s ease-in-out forwards;
+}
+
+/*
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes 2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60%;
+  }
+}
+*/
+/*----------------
+ competenze section 
+ ------------------*/
 .competenzeText.card {
-    height: 280px;
-    cursor: pointer;
+  height: 280px;
+  cursor: pointer;
 }
+
 .competenzeIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
 }
+
 .card-title {
-    text-align: center;
+  text-align: center;
 }
+
 .competenzeText:hover {
-    border: 1px solid green;
-}
-.card:hover .competenzeIcon{
-    color: green;
+  border: 1px solid green;
 }
 
-/* navbar brand fonts */
+.card:hover .competenzeIcon {
+  color: green;
+}
+
+/*------------- 
+ navbar brand fonts 
+---------------*/
 .navbar-brand {
-    font-family: 'rajdhani', sans-serif !important;
-    font-weight: 500;
+  font-family: 'rajdhani', sans-serif !important;
+  font-weight: 500;
 }
 
-/* navbar dark on scroll */
+.navbar-nav a {
+  font-family: 'rajdhani', sans-serif !important;
+}
+
+h1 {
+  font-family: 'rajdhani', sans-serif !important;
+}
+
+/*---------------------
+ navbar dark on scroll 
+ -----------------------*/
 .navbarScroll.navbarDark {
-    background-color: black;
+  background-color: black;
 }
 
-/* navbar text color */
+/*---------------
+ navbar text color 
+ ----------------*/
 .navbar-brand {
-    color: white;
+  color: white;
 }
-.navbar-nav li a{
-    color: white;
+
+.navbar-nav li a {
+  color: white;
 }
+
 .navbar-brand:hover {
-    color: rgb(201, 201, 201);
+  color: rgb(201, 201, 201);
 }
+
 .navbar-nav li a:hover {
-    color: rgb(201, 201, 201);
+  color: rgb(201, 201, 201);
 }
 
-/* footer icon style */
+/*----------------
+ footer icon style 
+ ----------------*/
 .social-icons {
-    font-size: 36px;
-    cursor: pointer;
+  font-size: 36px;
+  cursor: pointer;
 }
+
 .fab {
-    color: black;
+  color: black;
 }
+
 .fa-facebook:hover {
-    color:rgb(24, 57, 245);
+  color: rgb(24, 57, 245);
 }
+
 .fa-instagram:hover {
-    color: indianred;
+  color: indianred;
 }
+
 .fa-linkedin:hover {
-    color: rgb(52, 89, 202);
+  color: rgb(52, 89, 202);
 }
 
-/* footer style */
+/* ------------
+ footer style 
+---------------*/
 #footer {
-    background-color: #808080;
-    text-align: center;
+  background-color: #808080;
+  text-align: center;
 }
 
-/* add space to section */
-#about, #competenze, #esperienza, #contatti {
-    margin-top: 4rem;
-    padding-top: 4rem;
-}
+/*-----------------
+ add space to section 
+ ------------------*/
+#about,
+#skills,
+#competenze,
+#esperienza,
 #contatti {
-    padding-bottom: 4rem;
+  margin-top: 4rem;
+  padding-top: 4rem;
 }
 
-/* size title contatti */
+#contatti {
+  padding-bottom: 4rem;
+}
+
+/*---------------------
+ size title contatti 
+ ---------------------*/
 .contact-title {
-    font-size:large ;
+  font-size: large;
 }
 
 
 /*----------------------------
-section sumary
+ section sumary
 ----------------------------*/
 .resume-title {
-    font-size: 26px;
-    font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #222222;
-  }
-  
-.resume-item {
-    padding: 0 0 20px 20px;
-    margin-top: -2px;
-    border-left: 2px solid green;
-    position: relative;
-  }
-  
-.resume-item h4 {
-    line-height: 18px;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: #1d6830;
-    margin-bottom: 10px;
-  }
-  
-.resume-item h5 {
-    font-size: 16px;
-    background: #e0e0e0;
-    padding: 5px 15px;
-    display: inline-block;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #4f5756;
-  }
-  
-.resume-item ul {
-    padding-left: 20px;
-  }
-  
-.resume-item ul li {
-    padding-bottom: 10px;
-  }
-  
-.resume-item:last-child {
-    padding-bottom: 0;
-  }
-  
-.resume-item::before {
-    content: "";
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    border-radius: 50px;
-    left: -9px;
-    top: 0;
-    background: #fff;
-    border: 2px solid green;
-  }
-  
-/* contact icon */
-.phone i, .mail i, .address i {
-    font-size: 22px;
-    color: green;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background: #effbf7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;    
-  }
-  
-.phone , .mail , .address  {
-   display: flex;  
-  }
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #222222;
+}
 
-  .mail:hover i, .address:hover i, .phone:hover i {
-    background: green;
-    color: #fff;
-  }
+.resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid green;
+  position: relative;
+}
+
+.resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #1d6830;
+  margin-bottom: 10px;
+}
+
+.resume-item h5 {
+  font-size: 16px;
+  background: #e0e0e0;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #4f5756;
+}
+
+.resume-item ul {
+  padding-left: 20px;
+}
+
+.resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume-item::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid green;
+}
+
+/*--------------
+ contact icon 
+ --------------*/
+.phone i,
+.mail i,
+.address i {
+  font-size: 22px;
+  color: green;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #effbf7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.phone,
+.mail,
+.address {
+  display: flex;
+}
+
+.mail:hover i,
+.address:hover i,
+.phone:hover i {
+  background: green;
+  color: #fff;
+}
+  
+
 
