@@ -135,6 +135,10 @@
   color: green;
 }
 
+.card-text {
+  text-align: center;
+}
+
 /*------------- 
  navbar brand fonts 
 ---------------*/
