@@ -294,6 +294,10 @@ h1 {
   border: 2px solid green;
 }
 
+.emptypoint {
+  list-style-type: circle;
+}
+
 /*--------------
  contact icon 
  --------------*/
