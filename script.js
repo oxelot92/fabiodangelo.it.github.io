@@ -12,6 +12,10 @@ window.onscroll = function () {
 }
 
 
+//download file
+function download_file() {
+  document.getElementById("my_download").click()
+}
 
 // add skill animation after sroll on it
 function reveal() {
