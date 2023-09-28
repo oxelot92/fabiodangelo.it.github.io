@@ -396,7 +396,8 @@ language bar segment
   animation-delay: 0.5s; 
 }
 #segment4 {
-  background-color: #229635; 
+  background-color: #229635;
+  animation-delay: 0.7s;  
 }
 #segment5 {
   background-color: rgba(0, 128, 0, 0); 
