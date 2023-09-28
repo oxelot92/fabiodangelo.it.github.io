@@ -101,7 +101,7 @@
   
   animation: progress 1.5s ease-in-out forwards;
 }
-
+/*
 .progress-bar-2.active {
 
   animation: progress 1.5s ease-in-out forwards;
@@ -116,7 +116,7 @@
     width: 100%;
   }
 }
-
+/*
 @keyframes 2 {
   from {
     width: 0;
@@ -237,6 +237,7 @@ h1 {
 #skills,
 #competenze,
 #esperienza,
+#portfolio,
 #contatti {
   margin-top: 4rem;
   padding-top: 4rem;
